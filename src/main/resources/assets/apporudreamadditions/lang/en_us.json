@@ -1,3 +1,8 @@
 {
-  "item.apporudreamadittions.shiitake": "Shiitake Mushroom"
+  "item.apporudreamadditions.shiitake": "Shiitake Mushroom",
+
+  "block.apporudreamadditions.sodalite_block": "Sodalite Block",
+  "block.apporudreamadditions.sodalite_ore": "Sodalite Ore",
+
+  "itemGroup.apporudreamadditionstab": "Apporu's Dream Additions Items"
 }

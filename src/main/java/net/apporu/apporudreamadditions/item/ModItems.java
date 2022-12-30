@@ -1,7 +1,6 @@
 package net.apporu.apporudreamadditions.item;
 
 import net.apporu.apporudreamadditions.ApporusDreamAdditions;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,7 +12,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, ApporusDreamAdditions.MOD_ID);
 
     // Item list Below:
-    public static final RegistryObject<Item> SHIITAKE = ITEMS.register("shiitake",() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
+    public static final RegistryObject<Item> SHIITAKE = ITEMS.register("shiitake",() -> new Item(new Item.Properties().tab(ModCreativeModeTab.APPORU_DREAM_ADDITIONS_TAB)));
 
 
     // Item register eventBus method:

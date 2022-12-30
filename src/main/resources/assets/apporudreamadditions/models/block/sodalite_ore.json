@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "apporudreamadditions:block/sodalite_ore"
+  }
+}
