@@ -3,6 +3,7 @@ package net.apporu.apporudreamadditions;
 import com.mojang.logging.LogUtils;
 import net.apporu.apporudreamadditions.block.ModBlocks;
 import net.apporu.apporudreamadditions.item.ModItems;
+import net.apporu.apporudreamadditions.sound.ModSounds;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -28,8 +29,9 @@ public class ApporusDreamAdditions
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-        modEventBus.addListener(this::commonSetup);
+        ModSounds.register(modEventBus);
 
+        modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
     }
 

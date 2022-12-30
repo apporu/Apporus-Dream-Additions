@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "apporudreamadditions:sodalite_block"
+    }
+  ],
+  "result": {
+    "item": "apporudreamadditions:sodalite",
+    "count": 9
+  }
+}
