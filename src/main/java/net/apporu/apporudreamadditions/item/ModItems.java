@@ -13,6 +13,7 @@ public class ModItems {
 
     // Item list Below:
     public static final RegistryObject<Item> SHIITAKE = ITEMS.register("shiitake",() -> new Item(new Item.Properties().tab(ModCreativeModeTab.APPORU_DREAM_ADDITIONS_TAB)));
+    public static final RegistryObject<Item> SODALITE = ITEMS.register("sodalite",() -> new Item(new Item.Properties().tab(ModCreativeModeTab.APPORU_DREAM_ADDITIONS_TAB)));
 
 
     // Item register eventBus method:
