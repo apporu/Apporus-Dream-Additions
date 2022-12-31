@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSN",
+    "S S"
+  ],
+  "key": {
+    "S": {
+      "item": "apporudreamadditions:sodalite"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "apporudreamadditions:lil_sus"
+  }
+}
