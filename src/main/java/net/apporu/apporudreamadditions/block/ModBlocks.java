@@ -1,6 +1,7 @@
 package net.apporu.apporudreamadditions.block;
 
 import net.apporu.apporudreamadditions.ApporusDreamAdditions;
+import net.apporu.apporudreamadditions.block.custom.PrimordialFleshBlock;
 import net.apporu.apporudreamadditions.item.ModCreativeModeTab;
 import net.apporu.apporudreamadditions.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -31,6 +32,9 @@ public class ModBlocks {
                 () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(2, 4)), ModCreativeModeTab.APPORU_DREAM_ADDITIONS_TAB);
 
+    public static final RegistryObject<Block> PRIMORDIAL_FLESH = registerBlock("primordial_flesh",
+            () -> new PrimordialFleshBlock(BlockBehaviour.Properties.of(Material.SCULK)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.APPORU_DREAM_ADDITIONS_TAB);
 
     // eventBus method
     public static void register(IEventBus eventBus) {
